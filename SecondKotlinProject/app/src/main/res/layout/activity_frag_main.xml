@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ECDC53"
+    tools:context="fragment_package.FragMainActivity">
+
+    <Button
+        android:id="@+id/buttonRed"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginBottom="25dp"
+        android:text="RED"
+        app:layout_constraintBottom_toTopOf="@+id/buttonBlue"
+        app:layout_constraintEnd_toEndOf="@+id/buttonBlue"
+        app:layout_constraintStart_toStartOf="@+id/buttonBlue"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonBlue"
+        android:layout_width="131dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="51dp"
+        android:text="BLUE"
+        app:layout_constraintBottom_toTopOf="@+id/fragmentGreen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonRed" />
+
+    <androidx.fragment.app.FragmentContainerView
+        android:id="@+id/fragmentGreen"
+        android:name="fragment_package.GreenFragment"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonBlue"
+        tools:layout="@layout/green_frag_layout" />
+</androidx.constraintlayout.widget.ConstraintLayout>
