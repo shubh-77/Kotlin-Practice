@@ -1,7 +1,7 @@
 # Kotlin-Practice
 
 ## Home Screen
-![zero](https://github.com/shubh-77/Kotlin-Practice/blob/main/screenshots/retrieve_details.png)
+![zero](https://github.com/shubh-77/Kotlin-Practice/blob/main/screenshots/Home_Screen.png)
 
 ## Registering First Time
 ![one](https://github.com/shubh-77/Kotlin-Practice/blob/main/screenshots/Register_validation.png)
