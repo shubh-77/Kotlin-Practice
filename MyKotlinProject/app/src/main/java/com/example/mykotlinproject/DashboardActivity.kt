@@ -14,7 +14,7 @@ class DashboardActivity : AppCompatActivity() {
         setContentView(R.layout.activity_dashboard)
 
         var username=intent.extras?.getString("loginusername")
-        textViewDashboard.text="Hello $username"
+        textViewDashboard.text="Welcome $username !!"
     }
 
     override fun onCreateOptionsMenu(menu: Menu?): Boolean {

@@ -26,7 +26,7 @@ class DisplayInfoActivity : AppCompatActivity() {
 
 
 
-        textView.text="Received data from user:\nUSERNAME:$username\nPASSWORD:$pass\n GENDER:$gender\n Vehicle:$v1\n Choice:$choice"
+        textView.text="Received data from user:\n\nUSERNAME:$username\nPASSWORD:$pass\n GENDER:$gender\n Vehicle:$v1\n Country:$choice"
         buttonGoToLogin.setOnClickListener {
 
             var i=Intent(this,MainActivity::class.java)

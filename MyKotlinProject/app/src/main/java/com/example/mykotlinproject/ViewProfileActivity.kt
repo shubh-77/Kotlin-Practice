@@ -23,7 +23,7 @@ class ViewProfileActivity : AppCompatActivity() {
         var registeredChoice=registerSP.getString("keychoice","")
 
 
-        textViewProfile.text="Username: $registeredUsername \nPassword: $registeredPassword\nGender: $registeredGender\nVehicle:$registeredVehicle\nCountry:$registeredChoice"
+        textViewProfile.text="YOUR CREDENTIALS\n\n Username: $registeredUsername \nPassword: $registeredPassword\nGender: $registeredGender\nVehicle:$registeredVehicle\nCountry:$registeredChoice"
 
 
     }

@@ -12,7 +12,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:src="@drawable/ic_launcher_background"/>
+        android:src="@drawable/ic_launcher_background" />
+
+
 
 
     <LinearLayout
@@ -68,6 +70,7 @@
             android:id="@+id/radioGroup"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
             android:layout_marginStart="4dp"
             android:layout_marginTop="5dp">
 
@@ -89,6 +92,7 @@
             android:id="@+id/checkBox1"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
             android:layout_marginTop="5dp"
             android:text="Car" />
 
@@ -96,6 +100,7 @@
             android:id="@+id/checkBox2"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:background="@drawable/et_style"
             android:layout_marginTop="5dp"
             android:text="Bike" />
 
@@ -104,6 +109,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
+            android:background="@drawable/et_style"
 
             android:minHeight="48dp"
             tools:ignore="SpeakableTextPresentCheck" />
